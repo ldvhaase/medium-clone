@@ -11,7 +11,7 @@ NgRx training ground
 
 ## Project Structure
 
-```bash
+``` shell script
 src
 ├───app
 │   ├───auth
@@ -27,4 +27,4 @@ src
 │       └───types
 ├───assets
 └───environments
- ```
+```
