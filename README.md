@@ -11,57 +11,18 @@ NgRx training ground
 
 ## Project Structure
 
-/app
-
-  /article
-  
-    /components
-    
-    /store
-    
-    /types
-    
-    /services
-    
-      article.service.ts
-      
-    article.routes
-    
-  /globalFeed
-  
-    /components
-    
-      /globalFeed
-      
-  /globalFeed.routes
-  
-  /shared
-  
-    /components
-    
-      /backendErrorMessages
-      
-        backendErrorMessages.component.ts
-        
-      /popularTages
-      
-        popularTags.component.ts
-        
-        /types
-        
-        /store
-        
-        /services
-        
-    /types
-    
-      article.interface.ts
-      
-    /services
-    
-      article.services.ts
-      
-  app.routes
-  
-main.ts
-
+src
+├───app
+│   ├───auth
+│   │   ├───components
+│   │   │   └───register
+│   │   ├───services
+│   │   ├───store
+│   │   └───types
+│   └───shared
+│       ├───components
+│       │   └───backend-error-messages
+│       ├───services
+│       └───types
+├───assets
+└───environments
